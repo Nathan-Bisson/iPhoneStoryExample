@@ -7,8 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Page.h"
 
 @interface ViewController : UIViewController
+
+- (IBAction)unwindCancel:(UIStoryboardSegue *)segue;
+
+@property (weak, nonatomic) IBOutlet UITextView *page1TextView;
+
+@property Page *pageToPass;
+
+@property Page * page1;
+@property Page * page2;
+@property Page * page3;
+@property Page * page4;
+@property Page * page5;
+@property Page * page6;
+@property Page * page7;
+
 
 
 @end
